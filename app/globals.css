@@ -129,13 +129,23 @@ table {
 }
 
 nav {
-  background-color: chartreuse;
+  box-sizing: border-box;
+  justify-content: space-between;
   color: black;
-  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  padding: 1rem 10% 1rem 10%;
+  width: 100%;
 }
 
-.logo-container > span {
-  display: inline-block;
-  width: 25%;
-  background-color: aqua;
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin: auto 0.5rem;
 }

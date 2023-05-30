@@ -1,0 +1,12 @@
+.logoContainer {
+  position: relative;
+  width: 25%;
+}
+.logoContainer > * {
+  width: 100%;
+  height: auto;
+}
+
+.navLink {
+  text-transform: uppercase;
+}
