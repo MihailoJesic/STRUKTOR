@@ -1,12 +1,50 @@
+.navBar {
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  align-items: baseline;
+
+  padding: 1rem 10% 1rem 10%;
+  width: 100%;
+}
+
 .logoContainer {
-  position: relative;
   width: 25%;
 }
+
 .logoContainer > * {
   width: 100%;
   height: auto;
 }
 
+.navList {
+  display: flex;
+  flex-direction: row;
+}
+
 .navLink {
   text-transform: uppercase;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.contact {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 1rem 10% 1rem 10%;
+  width: 100%;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
 }

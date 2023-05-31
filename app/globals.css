@@ -127,25 +127,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-nav {
-  box-sizing: border-box;
-  justify-content: space-between;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-
-  padding: 1rem 10% 1rem 10%;
-  width: 100%;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-}
-
-li {
-  margin: auto 0.5rem;
-}
