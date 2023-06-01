@@ -61,17 +61,15 @@ export default function RootLayout({ children }) {
         {children}
         <div className={layout.contact}>
           <ul className={layout.contactList}>
-            <li>Telefon 1: xxx/xxxx-xxx</li>
-            <li>Telefon 2: xxx/xxxx-xxx</li>
+            <li className={layout.contactDetail}>Tel.: 060/715-15-50</li>
+            <li className={layout.contactDetail}>Telefon 2: xxx/xxxx-xxx</li>
+            <li className={layout.contactDetail}>Telefon 3: xxx/xxxx-xxx</li>
           </ul>{" "}
           <ul className={layout.contactList}>
-            <li>Adressa 1: Ulica XYZ</li>
-            <li>Adressa 2: Ulica XYZ</li>
+            <li className={layout.contactDetail}>Francuska 1, 31210 Požega</li>
+            <li className={layout.contactDetail}>Adressa 2: Ulica XYZ</li>
+            <li className={layout.contactDetail}>Site 1: Struktor.com</li>
           </ul>{" "}
-          <ul className={layout.contactList}>
-            <li>Site 1: example.com</li>
-            <li>Site 2: example.com</li>
-          </ul>
         </div>
       </body>
     </html>
