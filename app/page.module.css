@@ -1,0 +1,20 @@
+.headerContiner {
+  position: relative;
+}
+
+.headerImg {
+  width: 100%;
+  height: auto;
+}
+
+.headerText {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 5rem;
+  width: 100%;
+  padding: 2rem 2rem 1rem 1rem;
+  user-select: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}

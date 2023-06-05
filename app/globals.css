@@ -128,9 +128,13 @@ table {
   border-spacing: 0;
 }
 
+html * {
+  font-family: Calibri, sans-serif;
+}
+
 main {
   box-sizing: border-box;
-  padding: 1rem 10%;
+  padding: 0 10%;
   width: 100%;
   min-height: 71vh;
 }
