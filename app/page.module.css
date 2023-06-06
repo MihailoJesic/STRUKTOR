@@ -1,5 +1,6 @@
 .headerContiner {
   position: relative;
+  overflow: hidden;
 }
 
 .headerImg {
@@ -12,9 +13,16 @@
   position: absolute;
   bottom: 0;
   color: white;
+  font-family: Calibri, sans-serif;
   font-size: 5rem;
   width: 100%;
   padding: 2rem 2rem 1rem 1rem;
   user-select: none;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+@media only screen and (max-width: 600px) {
+  .headerText {
+    font-size: 3rem;
+  }
 }

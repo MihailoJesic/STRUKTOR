@@ -8,7 +8,8 @@
 
   align-items: baseline;
 
-  padding: 0.2rem 10% 0.2rem 10%;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   width: 100%;
 }
 
@@ -35,12 +36,16 @@
 .navList {
   display: flex;
   flex-direction: row;
+  padding: 0.2rem 0;
 }
 
 .navLink {
-  text-transform: uppercase;
   text-decoration: none;
-  margin: 0.5rem;
+  font-size: 0.8rem;
+  padding-left: 0.6rem;
+}
+
+.navLink {
 }
 
 .contact {
@@ -61,4 +66,67 @@
 }
 
 .contactDetail {
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar,
+  .contactList {
+    /* background-color: gold; */
+
+    padding-left: 0;
+    padding-right: 0;
+
+    display: flex;
+  }
+
+  .navBar {
+    flex-direction: column;
+  }
+
+  .navList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    margin-left: 0.5rem;
+    width: 3rem;
+  }
+
+  .struktor {
+    font-size: 1.5rem;
+  }
+
+  .googleMaps {
+    width: 100%;
+    height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navBar,
+  .contactList {
+    /* background-color: lightpink; */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .logo {
+    width: 3rem;
+  }
+
+  .struktor {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navBar,
+  .contactList {
+    /* background-color: violet; */
+
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }

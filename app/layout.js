@@ -54,9 +54,7 @@ export default function RootLayout({ children }) {
               D.O.O.
             </span>
           </div>
-          <div className={layout.navLinkContainer}>
-            <ul className={layout.navList}>{generateList(navList)}</ul>
-          </div>
+          <ul className={layout.navList}>{generateList(navList)}</ul>
         </nav>
         {children}
         <div className={layout.contact}>

@@ -128,13 +128,32 @@ table {
   border-spacing: 0;
 }
 
-html * {
-  font-family: Calibri, sans-serif;
-}
-
 main {
   box-sizing: border-box;
-  padding: 0 10%;
   width: 100%;
   min-height: 71vh;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    padding-left: 0;
+    padding-right: 0;
+    /* background-color: gold; */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    padding-left: 5%;
+    padding-right: 5%;
+    /* background-color: lightpink; */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-color: violet; */
+  }
 }
