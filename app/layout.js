@@ -59,14 +59,50 @@ export default function RootLayout({ children }) {
         {children}
         <div className={layout.contact}>
           <ul className={layout.contactList}>
-            <li className={layout.contactDetail}>Tel.: 060/715-15-50</li>
-            <li className={layout.contactDetail}>Telefon 2: xxx/xxxx-xxx</li>
-            <li className={layout.contactDetail}>Telefon 3: xxx/xxxx-xxx</li>
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="https://goo.gl/maps/2dAo958ro8GGewjv5"
+              >
+                Kancelarija: Francuska 1, 31210 Požega
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="https://goo.gl/maps/HyxMYUgTsTJRPqjF8"
+              >
+                Betonska Baza: Godovički put
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="struktor.com">
+                struktor.com
+              </a>
+            </li>
           </ul>{" "}
           <ul className={layout.contactList}>
-            <li className={layout.contactDetail}>Francuska 1, 31210 Požega</li>
-            <li className={layout.contactDetail}>Adressa 2: Ulica XYZ</li>
-            <li className={layout.contactDetail}>Site 1: Struktor.com</li>
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151555">
+                Tel.: 060/715-15-55
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151552">
+                Tel.: 060/715-15-52
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151550">
+                Tel.: 060/715-15-50
+              </a>
+            </li>
           </ul>{" "}
         </div>
       </body>

@@ -21,8 +21,27 @@
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
 }
 
+.mapResponsive {
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+}
+
+.mapResponsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+
 @media only screen and (max-width: 600px) {
   .headerText {
     font-size: 3rem;
+  }
+
+  .mapResponsive iframe {
+    width: 100%;
   }
 }
