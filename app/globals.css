@@ -169,6 +169,9 @@ a:active {
     padding-right: 0;
     /* background-color: gold; */
   }
+  .mapResponsive {
+    padding-bottom: 100%;
+  }
 
   .mapResponsive iframe {
     width: 100%;

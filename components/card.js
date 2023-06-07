@@ -5,16 +5,21 @@ import styles from "./card.module.css";
 function card(props) {
   return (
     <section className={styles.card}>
-      <div>
-        <Image
-          src={props.image}
-          className={styles.thumbnail}
-          alt={props.altText}
-          sizes="100%"
-        />{" "}
+      <Image
+        src={props.image}
+        className={styles.thumbnail}
+        alt={props.altText}
+        sizes="100%"
+      />{" "}
+      <div className={styles.textContainer}>
+        <div className={styles.title}>{props.title}</div>
+        <div className={styles.text}>{props.text}</div>
+        <div>
+          <a className={styles.button} href={props.link}>
+            {props.buttonText}
+          </a>
+        </div>
       </div>
-      <div>{props.title}</div>
-      <div>{props.text}</div>
     </section>
   );
 }

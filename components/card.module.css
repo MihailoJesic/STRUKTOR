@@ -1,11 +1,82 @@
 .card {
+  box-sizing: content-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  border-bottom: #ff0000 solid 0.1rem;
 }
 
+.card:nth-last-child(even) {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/* .card:nth-last-child(even) > .textContainer {
+  margin: 1rem 1rem 1rem 0; 
+} */
+
 .thumbnail {
+  max-width: 45%;
+  height: auto;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 1rem 1rem;
+  justify-content: center;
 }
 
 .title {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  color: #ff0000;
 }
 
 .text {
 }
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.8rem 1.6rem;
+}
+
+.button:link,
+.button:visited {
+  color: #fff;
+  background-color: #ff0000;
+}
+
+.button:hover,
+.button:active {
+  color: #ff0000;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem 0.2rem #990000;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    flex-direction: column !important;
+  }
+
+  .thumbnail {
+    max-width: 100%;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+  .thumbnail {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .thumbnail {
+    width: 60%;
+  }
+} */
