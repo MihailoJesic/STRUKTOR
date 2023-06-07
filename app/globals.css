@@ -134,11 +134,44 @@ main {
   min-height: 71vh;
 }
 
+.mapResponsive {
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+}
+
+.mapResponsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #000;
+}
+
+a:hover,
+a:active {
+  color: #ff0000;
+}
+
 @media only screen and (max-width: 600px) {
   main {
     padding-left: 0;
     padding-right: 0;
     /* background-color: gold; */
+  }
+
+  .mapResponsive iframe {
+    width: 100%;
   }
 }
 

@@ -14,34 +14,16 @@
   bottom: 0;
   color: white;
   font-family: Calibri, sans-serif;
+  text-transform: uppercase;
   font-size: 5rem;
   width: 100%;
-  padding: 2rem 2rem 1rem 1rem;
+  padding: 2rem 2rem 0.5rem 1rem;
   user-select: none;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-}
-
-.mapResponsive {
-  overflow: hidden;
-  padding-bottom: 40%;
-  position: relative;
-  height: 0;
-}
-
-.mapResponsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 50%;
-  position: absolute;
 }
 
 @media only screen and (max-width: 600px) {
   .headerText {
     font-size: 3rem;
-  }
-
-  .mapResponsive iframe {
-    width: 100%;
   }
 }

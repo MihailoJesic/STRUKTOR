@@ -35,3 +35,6 @@ yarn-error.log*
 next-env.d.ts
 app/layout.module.css
 public/placeholder.jpg
+public/radnici.jpeg
+public/baza.jpg
+public/kamion.jpg

@@ -8,7 +8,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Struktor Jesuc",
+  title: "Struktor Ješić",
   description: "Struktor D.O.O.",
 };
 
@@ -40,24 +40,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className={layout.navBar}>
-          <div className={layout.logoContainer}>
+        <header className={layout.navBar}>
+          <nav className={layout.logoContainer}>
             <Image
               src={logo}
               className={layout.logo}
               alt="Struktor Logo"
-              sizes="25vw"
+              sizes="100%"
             />
             <span className={layout.struktor}>
-              STRUKTOR JEŠIĆ
+              Struktor Ješić
               <br />
-              D.O.O.
+              d.o.o.
             </span>
-          </div>
+          </nav>
           <ul className={layout.navList}>{generateList(navList)}</ul>
-        </nav>
+        </header>
         {children}
-        <div className={layout.contact}>
+        <footer className={layout.contact}>
           <ul className={layout.contactList}>
             <li>
               {" "}
@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
               </a>
             </li>
           </ul>{" "}
-        </div>
+        </footer>
       </body>
     </html>
   );
