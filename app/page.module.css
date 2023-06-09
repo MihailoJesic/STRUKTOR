@@ -26,6 +26,26 @@
   margin: 1rem 0;
 }
 
+.mapContainer {
+  display: flex;
+}
+
+.mapSidebar {
+  margin: 2rem 2rem;
+  width: 100%;
+}
+
+.contact {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ContactButtonContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 @media only screen and (max-width: 992px) {
   .headerText {
     font-size: 4rem;
@@ -35,5 +55,9 @@
 @media only screen and (max-width: 600px) {
   .headerText {
     font-size: 3rem;
+  }
+
+  .mapContainer {
+    flex-direction: column;
   }
 }

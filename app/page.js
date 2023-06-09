@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import headerImg from "../public/placeholder.jpg";
-import bazaImg from "../public/baza.jpg";
 import Card from "../components/card.js";
+import Button from "../components/button.js";
 
 export default function Home() {
   const cardData = [
@@ -30,6 +30,12 @@ export default function Home() {
       buttonText: "Detalji",
       link: "/usluge",
     },
+    {
+      title: "Betonska Baza",
+      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      image: "/radnici.jpeg",
+      altText: "Betonska baza",
+    },
   ];
 
   function cardCollection(arr) {
@@ -55,6 +61,21 @@ export default function Home() {
         {cardCollection(cardData)}
       </section>
       <section className={styles.mapContainer}>
+        <div className={styles.mapSidebar}>
+          <h3 className={styles.contact}>Nadjite nas</h3>
+          <div>
+            Betonska baza nalazi se na Godovičkom Putu
+            <br />
+            Kancelarije na drugon spratu biznis centra u Francuskoj br. 1
+          </div>
+          <div className={styles.ContactButtonContainer}>
+            <Button
+              buttonText="Kancelarija"
+              link="/kontakt#kanzelarija"
+            ></Button>
+            <Button buttonText="Baza" link="/kontakt#baza"></Button>
+          </div>
+        </div>
         <div className="mapResponsive">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.3958287699315!2d20.04118077510154!3d43.82688997109442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47577f3d8aa8d7d1%3A0x937eef1444368209!2zU3RydWt0b3IgSmXFoWnEjQ!5e0!3m2!1sen!2srs!4v1686142917261!5m2!1sen!2srs"

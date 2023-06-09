@@ -134,18 +134,26 @@ main {
   min-height: 71vh;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 .mapResponsive {
+  display: inline-block;
   overflow: hidden;
   padding-bottom: 40%;
   position: relative;
   height: 0;
+  width: 100%;
+  border: #ff0000 solid 0.1rem;
+  border-radius: 1rem;
 }
 
 .mapResponsive iframe {
-  left: 0;
+  right: 0;
   top: 0;
   height: 100%;
-  width: 50%;
+  width: 100%;
   position: absolute;
 }
 

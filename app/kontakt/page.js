@@ -5,9 +5,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Kontakt Informacije</h1>
-      <div>
+      <section id="kancelarija">
+        <h3>Kancelarija</h3>
         <a href="https://goo.gl/maps/2dAo958ro8GGewjv5">
-          Kancelarija: Francuska 1, 31210 Požega
+          Francuska 1, 31210 Požega
         </a>
         <div className="mapResponsive">
           <iframe
@@ -20,11 +21,10 @@ export default function Home() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </div>
-      <div>
-        <a href="https://goo.gl/maps/HyxMYUgTsTJRPqjF8">
-          Betonska Baza: Godovički put
-        </a>
+      </section>
+      <section id="baza">
+        <h3> Betonska Baza</h3>
+        <a href="https://goo.gl/maps/HyxMYUgTsTJRPqjF8">Godovički put</a>
         <div className="mapResponsive">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.3958287699315!2d20.04118077510154!3d43.82688997109442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47577f3d8aa8d7d1%3A0x937eef1444368209!2zU3RydWt0b3IgSmXFoWnEjQ!5e0!3m2!1sen!2srs!4v1686144960178!5m2!1sen!2srs"
@@ -36,7 +36,7 @@ export default function Home() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </div>
+      </section>
       <div>
         <ul>
           <li>
