@@ -5,6 +5,41 @@ import bazaImg from "../public/baza.jpg";
 import Card from "../components/card.js";
 
 export default function Home() {
+  const cardData = [
+    {
+      title: "Betonska Baza",
+      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      image: "/baza.jpg",
+      altText: "Betonska baza",
+      buttonText: "Detalji",
+      link: "/usluge",
+    },
+    {
+      title: "Betonska Baza",
+      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      image: "/kamion.jpg",
+      altText: "Betonska baza",
+      buttonText: "Detalji",
+      link: "/usluge",
+    },
+    {
+      title: "Betonska Baza",
+      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      image: "/radnici.jpeg",
+      altText: "Betonska baza",
+      buttonText: "Detalji",
+      link: "/usluge",
+    },
+  ];
+
+  function cardCollection(arr) {
+    const output = [];
+    arr.forEach((el) => {
+      output.push(<Card data={el} />);
+    });
+    return output;
+  }
+
   return (
     <main>
       <section className={styles.headerContiner}>
@@ -17,48 +52,7 @@ export default function Home() {
         <h1 className={styles.headerText}>Struktor Ješić</h1>
       </section>
       <section className={styles.cardContainer}>
-        <Card
-          title="Betonska Baza"
-          text="Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora"
-          image={bazaImg}
-          altText="Betonska baza"
-          buttonText="Detalji"
-          link="/usluge"
-        >
-          Izvodjenje svih vrsta gradjevinskih radova.
-        </Card>{" "}
-        <Card
-          title="Betonska Baza"
-          text="Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora"
-          image={bazaImg}
-          altText="Betonska baza"
-          buttonText="Detalji"
-          link="/usluge"
-        >
-          Izvodjenje svih vrsta gradjevinskih radova.
-        </Card>{" "}
-        <Card
-          title="Betonska Baza"
-          text="Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora"
-          image={bazaImg}
-          altText="Betonska baza"
-          buttonText="Detalji"
-          link="/usluge"
-        >
-          Izvodjenje svih vrsta gradjevinskih radova.
-        </Card>{" "}
-        <Card
-          title="Betonska Baza"
-          text="Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora"
-          image={bazaImg}
-          altText="Betonska baza"
-          buttonText="Detalji"
-          link="/usluge"
-        >
-          Izvodjenje svih vrsta gradjevinskih radova.
-        </Card>
-        {/* <Card>Betonska baza.</Card>
-        <Card>Ugradnja i prevoz betona.</Card> */}
+        {cardCollection(cardData)}
       </section>
       <section className={styles.mapContainer}>
         <div className="mapResponsive">
