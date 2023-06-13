@@ -1,0 +1,37 @@
+.contactPlace {
+  font-size: 1rem;
+}
+
+.locationContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+
+.textContainer {
+  justify-content: center;
+  box-sizing: content-box;
+  width: 60%;
+  margin: 1rem 0 0 1rem;
+}
+
+.offset {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .locationContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    margin: 0 0 1rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .textContainer {
+    width: 80%;
+  }
+}

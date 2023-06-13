@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>O Nama</h1>
+      <h1 className="title">O nama</h1>
     </main>
   );
 }

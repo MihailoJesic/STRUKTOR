@@ -62,7 +62,7 @@ export default function Home() {
       </section>
       <section className={styles.mapContainer}>
         <div className={styles.mapSidebar}>
-          <h3 className={styles.contact}>Nadjite nas</h3>
+          <h3 className={styles.contact}>Lokacije</h3>
           <div>
             Betonska baza nalazi se na Godovičkom Putu
             <br />

@@ -138,6 +138,15 @@ h3 {
   font-weight: 600;
 }
 
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: Calibri, sans-serif;
+  color: #ff0000;
+  padding: 1rem;
+  border-bottom: #ff0000 solid 0.1rem;
+}
+
 .mapResponsive {
   display: inline-block;
   overflow: hidden;
@@ -179,6 +188,8 @@ a:active {
   }
   .mapResponsive {
     padding-bottom: 100%;
+    margin: 0 auto;
+    width: 95%;
   }
 
   .mapResponsive iframe {
