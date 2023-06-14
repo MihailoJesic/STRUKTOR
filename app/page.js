@@ -7,7 +7,7 @@ import Button from "../components/button.js";
 export default function Home() {
   const cardData = [
     {
-      title: "Betonska Baza",
+      title: "Usluge",
       text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
       image: "/baza.jpg",
       altText: "Betonska baza",
@@ -23,7 +23,7 @@ export default function Home() {
       link: "/usluge",
     },
     {
-      title: "Betonska Baza",
+      title: "O nama",
       text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
       image: "/radnici.jpeg",
       altText: "Betonska baza",
@@ -31,10 +31,20 @@ export default function Home() {
       link: "/usluge",
     },
     {
-      title: "Betonska Baza",
+      title: "Projekti",
       text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
       image: "/radnici.jpeg",
       altText: "Betonska baza",
+      buttonText: "Detalji",
+      link: "/usluge",
+    },
+    {
+      title: "Kontaktirajte nas",
+      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      image: "/radnici.jpeg",
+      altText: "Betonska baza",
+      buttonText: "Detalji",
+      link: "/usluge",
     },
   ];
 
