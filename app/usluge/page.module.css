@@ -1,0 +1,74 @@
+.contentContainer {
+  margin: 1rem;
+}
+
+.serviceContainer {
+  padding: 1rem;
+  border-bottom: #ff0000 solid 0.1rem;
+  line-height: 1.2;
+  display: flex;
+}
+
+.serviceContainer:last-child {
+  line-height: 1.4;
+  border-bottom: none;
+}
+
+.textContainer {
+  width: 50%;
+}
+
+.serviceTitle {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.serviceItem {
+  margin: 0.5rem;
+}
+
+.concreteDetails {
+  padding: 0.5rem 2rem 1rem 0.5rem;
+}
+
+.serviceList {
+  list-style: none;
+}
+
+.serviceItem::before {
+  content: "\2022";
+  color: #ff0000;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.serviceSubItem {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+
+.sidePhoto {
+  position: relative !important;
+  width: 50% !important;
+  height: 100% !important;
+  margin: 1rem;
+  border: #ff0000 solid 0.1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .serviceContainer {
+    flex-direction: column;
+  }
+
+  .sidePhoto {
+    min-width: 85%;
+    margin: 0 auto;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+}

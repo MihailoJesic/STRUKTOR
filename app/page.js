@@ -8,7 +8,7 @@ export default function Home() {
   const cardData = [
     {
       title: "Usluge",
-      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      text: "Priprema i raščišćavanje gradilišta, administraticna delatnost, zemljani, grubi građevinski, armirački i drugi radovi... ",
       image: "/baza.jpg",
       altText: "Betonska baza",
       buttonText: "Detalji",
@@ -16,35 +16,27 @@ export default function Home() {
     },
     {
       title: "Betonska Baza",
-      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      text: "Proizvodnja betona marke MB15, MB20, MB25, MB30, MB35, MB40.",
       image: "/kamion.jpg",
       altText: "Betonska baza",
       buttonText: "Detalji",
-      link: "/usluge",
-    },
-    {
-      title: "O nama",
-      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
-      image: "/radnici.jpeg",
-      altText: "Betonska baza",
-      buttonText: "Detalji",
-      link: "/usluge",
+      link: "/usluge#baza",
     },
     {
       title: "Projekti",
-      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      text: "Stambeni i nestambeni objekti.",
       image: "/radnici.jpeg",
       altText: "Betonska baza",
       buttonText: "Detalji",
-      link: "/usluge",
+      link: "/projekti",
     },
     {
-      title: "Kontaktirajte nas",
-      text: "Proizvodnja betona marke MB20, MB25, MB30, sa i bez plastifikatora",
+      title: "O nama",
+      text: "Kompanija ”STRUKTOR JEŠIĆ” D.O.O. tri decenije uspešno posluje u oblasti građevinske infrastrukture.",
       image: "/radnici.jpeg",
       altText: "Betonska baza",
       buttonText: "Detalji",
-      link: "/usluge",
+      link: "/o_nama",
     },
   ];
 
@@ -83,7 +75,7 @@ export default function Home() {
               buttonText="Kancelarija"
               link="/kontakt#kanzelarija"
             ></Button>
-            <Button buttonText="Baza" link="/kontakt#baza"></Button>
+            <Button buttonText="Betonska Baza" link="/kontakt#baza"></Button>
           </div>
         </div>
         <div className="mapResponsive">
