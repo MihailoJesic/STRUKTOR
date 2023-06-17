@@ -99,6 +99,12 @@ export default function RootLayout({ children }) {
             </li>{" "}
             <li>
               {" "}
+              <a className={layout.contactDetail} href="tel:+381607151551">
+                Tel.: 060/715-15-51
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
               <a className={layout.contactDetail} href="tel:+381607151550">
                 Tel.: 060/715-15-50
               </a>

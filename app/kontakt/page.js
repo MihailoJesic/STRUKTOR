@@ -20,6 +20,10 @@ export default function Home() {
               {" "}
               <a href="tel:+381607151555">Tel.: 060/715-15-55</a>
             </li>{" "}
+            <li>
+              {" "}
+              <a href="tel:+381607151551">Tel.: 060/715-15-51</a>
+            </li>{" "}
           </ul>{" "}
         </div>
         <div className="mapResponsive">
