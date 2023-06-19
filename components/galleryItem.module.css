@@ -1,0 +1,15 @@
+.itemContainer {
+  box-sizing: content-box;
+
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.item {
+  position: relative !important;
+  width: 100% !important;
+  height: auto !important;
+  border: 0.1rem solid #ff0000;
+  border-radius: 1rem;
+}
