@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.textContainer {
+  box-sizing: content-box;
+  padding: 1rem;
+  width: 90%;
+}
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin: 0.5rem;
+}
+
+.imageContainer {
+  padding: 1rem;
+}
+
+.image {
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative !important;
+  height: auto !important;
+  border: #ff0000 solid 0.1rem;
+  border-radius: 1rem;
+}
+
+.imageLink {
+  box-sizing: content-box;
+  position: relative;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
