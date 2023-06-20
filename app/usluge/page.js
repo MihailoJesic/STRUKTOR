@@ -66,13 +66,19 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <Image
-            src="/kamion.jpg"
-            className={styles.sidePhoto}
-            alt="x"
-            sizes="100%"
-            fill={true}
-          />{" "}
+          <a
+            className={styles.imageLink}
+            href="/usluge/usluge-1.jpg"
+            target="_blank"
+          >
+            <Image
+              src="/usluge/usluge-1.jpg"
+              className={styles.sidePhoto}
+              alt="x"
+              sizes="100%"
+              fill={true}
+            />{" "}
+          </a>
         </section>
 
         <section className={styles.serviceContainer}>
@@ -94,13 +100,19 @@ export default function Home() {
               spratnim etažama.
             </div>
           </div>
-          <Image
-            src="/baza.jpg"
-            className={styles.sidePhoto}
-            alt="x"
-            sizes="100%"
-            fill={true}
-          />{" "}
+          <a
+            className={styles.imageLink}
+            href="/usluge/betonska-baza-3.jpg"
+            target="_blank"
+          >
+            <Image
+              src="/usluge/betonska-baza-3.jpg"
+              className={styles.sidePhoto}
+              alt="x"
+              sizes="100%"
+              fill={true}
+            />{" "}
+          </a>
         </section>
       </div>
     </main>

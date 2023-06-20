@@ -5,71 +5,91 @@ import GalleryItem from "../../components/galleryItem.js";
 export default function Home() {
   const galleryData = [
     {
-      image: "/images/img (1).jpg",
+      image: "/projekti/images (1).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (2).jpg",
+      image: "/projekti/images (2).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (3).jpg",
+      image: "/projekti/images (3).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (4).jpg",
+      image: "/projekti/images (4).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (5).jpg",
+      image: "/projekti/images (5).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (6).jpg",
+      image: "/projekti/images (6).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (7).jpg",
+      image: "/projekti/images (7).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (8).jpg",
+      image: "/projekti/images (8).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (9).jpg",
+      image: "/projekti/images (9).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (10).jpg",
+      image: "/projekti/images (10).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (11).jpg",
+      image: "/projekti/images (11).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (12).jpg",
+      image: "/projekti/images (12).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (13).jpg",
+      image: "/projekti/images (13).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (14).jpg",
+      image: "/projekti/images (14).jpg",
       altText: "Betonska baza",
     },
     {
-      image: "/images/img (15).jpg",
+      image: "/projekti/images (15).jpg",
+      altText: "Betonska baza",
+    },
+    {
+      image: "/projekti/images (16).jpg",
+      altText: "Betonska baza",
+    },
+    {
+      image: "/projekti/images (17).jpg",
+      altText: "Betonska baza",
+    },
+    {
+      image: "/projekti/images (18).jpg",
+      altText: "Betonska baza",
+    },
+    {
+      image: "/projekti/images (19).jpg",
+      altText: "Betonska baza",
+    },
+    {
+      image: "/projekti/images (20).jpg",
       altText: "Betonska baza",
     },
   ];
 
   function galleryGenerator(arr) {
     const output = [];
-    arr.forEach((el) => {
-      output.push(<GalleryItem data={el} />);
+    arr.forEach((el, i) => {
+      output.push(<GalleryItem data={el} keygen={i} />);
     });
     return output;
   }

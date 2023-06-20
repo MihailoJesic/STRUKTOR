@@ -3,7 +3,7 @@
 }
 
 .serviceContainer {
-  padding: 1rem;
+  padding: 1rem 1rem 2.8rem 1rem;
   border-bottom: #ff0000 solid 0.1rem;
   line-height: 1.2;
   display: flex;
@@ -15,7 +15,7 @@
 }
 
 .textContainer {
-  width: 50%;
+  width: 100%;
 }
 
 .serviceTitle {
@@ -50,12 +50,17 @@
   margin-left: 1rem;
 }
 
+.imageLink {
+  width: 100%;
+  position: relative;
+}
+
 .sidePhoto {
   position: relative !important;
-  width: 50% !important;
   height: 100% !important;
   margin: 1rem;
   border: #ff0000 solid 0.1rem;
+  border-radius: 1rem;
 }
 
 @media only screen and (max-width: 992px) {

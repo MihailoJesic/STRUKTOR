@@ -6,17 +6,16 @@ function card(props) {
   const { image, altText } = props.data;
 
   return (
-    <div className={styles.itemContainer}>
-      <a href={image} target="_blank">
-        <Image
-          src={image}
-          className={styles.item}
-          alt={altText}
-          sizes="100%"
-          fill={true}
-        />{" "}
-      </a>
-    </div>
+    <a className={styles.itemContainer} href={image} target="_blank">
+      <Image
+        src={image}
+        className={styles.item}
+        alt={altText}
+        sizes="100%"
+        fill={true}
+        key={props.keygen}
+      />{" "}
+    </a>
   );
 }
 

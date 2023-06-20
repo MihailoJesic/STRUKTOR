@@ -18,10 +18,19 @@
   margin: 1rem 1rem 1rem 0; 
 } */
 
-.thumbnail {
+.imageLink {
+  display: inline-block;
+  max-width: 45%;
+  min-width: 45%;
+  position: relative;
+}
+
+.image {
   position: relative !important;
-  max-width: 45% !important;
+  max-width: 100% !important;
   height: auto !important;
+  border: #ff0000 solid 0.1rem;
+  border-radius: 1rem;
 }
 
 .textContainer {
@@ -46,8 +55,10 @@
     flex-direction: column !important;
   }
 
-  .thumbnail {
-    max-width: 100% !important;
+  .imageLink {
+    max-width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .textContainer {

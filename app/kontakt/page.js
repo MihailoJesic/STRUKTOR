@@ -12,7 +12,7 @@ export default function Home() {
             className={styles.offset}
             href="https://goo.gl/maps/2dAo958ro8GGewjv5"
           >
-            Francuska 1, 31210 Požega
+            Francuska 1, Drugi sprat, 31210 Požega
           </a>
           <h3>Telefon:</h3>
           <ul className={styles.offset}>
@@ -32,9 +32,9 @@ export default function Home() {
             width="600"
             height="450"
             styles="border:0;"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </section>
@@ -65,9 +65,9 @@ export default function Home() {
             width="600"
             height="450"
             styles="border:0;"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </section>

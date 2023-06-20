@@ -16,13 +16,15 @@ function card(props) {
 
   return (
     <section className={styles.card}>
-      <Image
-        src={image}
-        className={styles.thumbnail}
-        alt={altText}
-        sizes="100%"
-        fill={true}
-      />{" "}
+      <a href={image} target="_blank" className={styles.imageLink}>
+        <Image
+          src={image}
+          className={styles.image}
+          alt={altText}
+          sizes="100%"
+          fill={true}
+        />{" "}
+      </a>
       <div className={styles.textContainer}>
         <h3 className={styles.title}>{title}</h3>
         <div className={styles.text}>{text}</div>

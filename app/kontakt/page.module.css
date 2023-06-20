@@ -1,5 +1,5 @@
 .contactPlace {
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .locationContainer {
@@ -9,6 +9,7 @@
 }
 
 .textContainer {
+  font-size: 1.2rem;
   justify-content: center;
   box-sizing: content-box;
   width: 60%;
