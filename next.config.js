@@ -4,6 +4,7 @@ const nextConfig = {
   //   locales: ["sr-sp"],
   //   defaultLocale: "sr-sp",
   // },
+  trailingSlash: true,
   output: "export",
 };
 
