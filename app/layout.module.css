@@ -52,19 +52,19 @@
   box-sizing: border-box;
   background-color: black;
   color: white;
-  margin-top: 1rem;
 
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto auto;
 
-  padding: 2rem 1rem;
-  width: 100%;
+  padding: 2rem 10% 3rem 10%;
+  gap: 2rem;
 }
 
 .contactList {
   display: flex;
   flex-direction: column;
 }
+
 .contactDetail {
   margin-bottom: 0.5rem;
   display: block;
@@ -82,8 +82,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .navBar,
-  .contactList {
+  .contact {
+    grid-template-columns: auto;
+  }
+
+  .navBar {
     /* background-color: gold; */
 
     padding-left: 0;
@@ -118,9 +121,13 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .navBar,
-  .contactList {
+  .contact {
+    grid-template-columns: auto auto;
+  }
+
+  .navBar {
     /* background-color: lightpink; */
+    box-sizing: border-box;
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -135,8 +142,11 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .navBar,
-  .contactList {
+  .contact {
+    grid-template-columns: auto auto auto;
+  }
+
+  .navBar {
     /* background-color: violet; */
 
     padding-left: 10%;
