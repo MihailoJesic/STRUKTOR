@@ -12,7 +12,7 @@ export default function Home() {
             className={styles.offset}
             href="https://goo.gl/maps/2dAo958ro8GGewjv5"
           >
-            Francuska 1, Drugi sprat, 31210 Požega
+            Francuska 1, II sprat, 31210 Požega
           </a>
           <h3>Telefon:</h3>
           <ul className={styles.offset}>
@@ -23,6 +23,10 @@ export default function Home() {
             <li>
               {" "}
               <a href="tel:+381607151551">Tel.: 060/715-15-51</a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a href="tel:+381607151551">Tel.: 060/715-15-99</a>
             </li>{" "}
           </ul>{" "}
         </div>
