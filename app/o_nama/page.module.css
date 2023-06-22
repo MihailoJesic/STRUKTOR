@@ -16,11 +16,12 @@
 }
 
 .imageContainer {
+  max-width: 40%;
   padding: 1rem;
 }
 
 .image {
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
   position: relative !important;
   height: auto !important;
