@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <header className={layout.navBar}>
           <nav className={layout.logoContainer}>
-            <Image
+            <img
               src="/Struktor Logo.png"
               className={layout.logo}
               alt="Struktor Logo"

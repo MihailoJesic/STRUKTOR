@@ -59,8 +59,8 @@ export default function Home() {
   return (
     <main>
       <section className={styles.headerContiner}>
-        <Image
-          src={headerImg}
+        <img
+          src="/homepage/header.jpg"
           className={styles.headerImg}
           alt="Struktor Logo"
           sizes="100%"

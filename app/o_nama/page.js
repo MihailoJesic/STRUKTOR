@@ -45,7 +45,7 @@ export default function Home() {
             target="_blank"
             className={styles.imageLink}
           >
-            <Image
+            <img
               src="/o nama/o-nama-1.jpg"
               className={styles.image}
               alt="Struktor Offices"
