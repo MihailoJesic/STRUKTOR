@@ -92,27 +92,65 @@ export default function RootLayout({ children }) {
             <li>
               {" "}
               <a className={layout.contactDetail} href="tel:+381607151555">
-                Tel.: 060/715-15-55
+                060/715-15-55
               </a>
             </li>{" "}
             <li>
               {" "}
               <a className={layout.contactDetail} href="tel:+381607151552">
-                Tel.: 060/715-15-52
+                060/715-15-52
               </a>
             </li>{" "}
             <li>
               {" "}
               <a className={layout.contactDetail} href="tel:+381607151551">
-                Tel.: 060/715-15-51
+                060/715-15-51
               </a>
             </li>{" "}
             <li>
               {" "}
               <a className={layout.contactDetail} href="tel:+381607151550">
-                Tel.: 060/715-15-50
+                060/715-15-50
               </a>
             </li>
+          </ul>{" "}
+          <ul className={layout.contactList}>
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="mailto: nada.jesic@struktor.com"
+              >
+                nada.jesic@struktor.com
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="mailto: milica.simovic@structorjesic.com"
+              >
+                milica.simovic@structorjesic.com
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="mailto: radenko.jesic@struktorjesic.com"
+              >
+                radenko.jesic@struktorjesic.com
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="mailto: nikola.cicvaric@struktorjesic.com"
+              >
+                nikola.cicvaric@struktorjesic.com
+              </a>
+            </li>{" "}
           </ul>{" "}
         </footer>
       </body>
