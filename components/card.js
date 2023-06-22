@@ -4,7 +4,8 @@ import styles from "./card.module.css";
 import Button from "./button.js";
 
 function card(props) {
-  const { title, text, image, altText, buttonText, link } = props.data;
+  const { title, text, image, altText, buttonText, link, width, height } =
+    props.data;
 
   function generateButton(link, buttonText) {
     if (!buttonText || !link) {
@@ -22,7 +23,8 @@ function card(props) {
           className={styles.image}
           alt={altText}
           sizes="100%"
-          fill={true}
+          width={width}
+          height={height}
         />{" "}
       </a>
       <div className={styles.textContainer}>

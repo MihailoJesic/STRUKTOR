@@ -13,6 +13,8 @@ export default function Home() {
       altText: "Šest parkiranih kamioni",
       buttonText: "Detalji",
       link: "/usluge",
+      width: 1600,
+      height: 1200,
     },
     {
       title: "Betonska Baza",
@@ -21,6 +23,8 @@ export default function Home() {
       altText: "Betonska baza",
       buttonText: "Detalji",
       link: "/usluge#baza",
+      width: 1200,
+      height: 900,
     },
     {
       title: "Projekti",
@@ -29,6 +33,8 @@ export default function Home() {
       altText: "Tojo Centar u Požegi",
       buttonText: "Detalji",
       link: "/projekti",
+      width: 1600,
+      height: 1200,
     },
     {
       title: "O nama",
@@ -37,6 +43,8 @@ export default function Home() {
       altText: "Radovi na tunelu Titan Cementara Kosijerić",
       buttonText: "Detalji",
       link: "/o_nama",
+      width: 800,
+      height: 600,
     },
   ];
 

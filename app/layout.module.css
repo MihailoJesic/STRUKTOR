@@ -68,6 +68,7 @@
 .contactDetail {
   margin-bottom: 0.5rem;
   display: block;
+  font-size: 1.2rem;
 }
 
 .contactDetail:link,

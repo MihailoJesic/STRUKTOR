@@ -2,7 +2,6 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import layout from "./layout.module.css";
-import logo from "../public/Struktor Logo.png";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -43,10 +42,12 @@ export default function RootLayout({ children }) {
         <header className={layout.navBar}>
           <nav className={layout.logoContainer}>
             <Image
-              src={logo}
+              src="/Struktor Logo.png"
               className={layout.logo}
               alt="Struktor Logo"
               sizes="100%"
+              width="1186"
+              height="1178"
             />
             <span className={layout.struktor}>
               Struktor Ješić

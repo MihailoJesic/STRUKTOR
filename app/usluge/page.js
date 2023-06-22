@@ -76,7 +76,8 @@ export default function Home() {
               className={styles.sidePhoto}
               alt="x"
               sizes="100%"
-              fill={true}
+              width="600"
+              height="450"
             />{" "}
           </a>
         </section>
@@ -110,7 +111,8 @@ export default function Home() {
               className={styles.sidePhoto}
               alt="x"
               sizes="100%"
-              fill={true}
+              width="1200"
+              height="900"
             />{" "}
           </a>
         </section>

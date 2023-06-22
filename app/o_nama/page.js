@@ -50,7 +50,8 @@ export default function Home() {
               className={styles.image}
               alt="Struktor Offices"
               sizes="100%"
-              fill={true}
+              width="1600"
+              height="1200"
             />{" "}
           </a>
         </div>
