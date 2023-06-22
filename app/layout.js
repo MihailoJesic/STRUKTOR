@@ -79,8 +79,11 @@ export default function RootLayout({ children }) {
             </li>
             <li>
               {" "}
-              <a className={layout.contactDetail} href="struktor.com">
-                struktor.com
+              <a
+                className={layout.contactDetail}
+                href="http://struktorjesic.com/"
+              >
+                struktorjesic.com
               </a>
             </li>
           </ul>{" "}
