@@ -6,7 +6,7 @@
 .textContainer {
   box-sizing: content-box;
   padding: 1rem;
-  width: 100%;
+  width: 92%;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -18,7 +18,7 @@
 }
 
 .imageContainer {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +35,11 @@
 .imageLink {
   box-sizing: content-box;
   position: relative;
-  margin: 1rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.imageLink:last-child {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 992px) {

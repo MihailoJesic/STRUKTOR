@@ -71,7 +71,7 @@ export default function Home() {
             href="/usluge/usluge-1.jpg"
             target="_blank"
           >
-            <Image
+            <img
               src="/usluge/usluge-1.jpg"
               className={styles.sidePhoto}
               alt="x"
@@ -107,7 +107,7 @@ export default function Home() {
               href="/usluge/kamioni-1.jpg"
               target="_blank"
             >
-              <Image
+              <img
                 src="/usluge/kamioni-1.jpg"
                 className={styles.sidePhoto}
                 alt="x"
@@ -121,7 +121,7 @@ export default function Home() {
               href="/usluge/betonska-baza-3.jpg"
               target="_blank"
             >
-              <Image
+              <img
                 src="/usluge/betonska-baza-3.jpg"
                 className={styles.sidePhoto}
                 alt="x"

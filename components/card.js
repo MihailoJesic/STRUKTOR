@@ -18,7 +18,7 @@ function card(props) {
   return (
     <section className={styles.card}>
       <a href={image} target="_blank" className={styles.imageLink}>
-        <Image
+        <img
           src={image}
           className={styles.image}
           alt={altText}

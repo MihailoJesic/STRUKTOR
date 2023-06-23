@@ -7,7 +7,7 @@ function card(props) {
 
   return (
     <a className={styles.itemContainer} href={image} target="_blank">
-      <Image
+      <img
         src={image}
         className={styles.item}
         alt={altText}
