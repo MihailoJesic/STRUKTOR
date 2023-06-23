@@ -49,90 +49,13 @@ export default function RootLayout({ children }) {
               width="1186"
               height="1178"
             />
-            <span className={layout.struktor}>
-              Struktor Ješić
-              <br />
-              d.o.o.
-            </span>
+            <span className={layout.struktor}>Struktor Ješić d.o.o.</span>
           </nav>
           <ul className={layout.navList}>{generateList(navList)}</ul>
         </header>
         {children}
         <footer className={layout.contact}>
           <ul className={layout.contactList}>
-            <li>
-              {" "}
-              <a
-                className={layout.contactDetail}
-                href="https://goo.gl/maps/2dAo958ro8GGewjv5"
-              >
-                Kancelarija: Francuska 1, 31210 Požega
-              </a>
-            </li>
-            <li>
-              {" "}
-              <a
-                className={layout.contactDetail}
-                href="https://goo.gl/maps/HyxMYUgTsTJRPqjF8"
-              >
-                Betonska Baza: Godovički put
-              </a>
-            </li>
-            <li>
-              {" "}
-              <a
-                className={layout.contactDetail}
-                href="http://struktorjesic.com/"
-              >
-                struktorjesic.com
-              </a>
-            </li>
-          </ul>{" "}
-          <ul className={layout.contactList}>
-            <li>
-              {" "}
-              <a className={layout.contactDetail} href="tel:+381607151555">
-                060/715-15-55
-              </a>
-            </li>{" "}
-            <li>
-              {" "}
-              <a className={layout.contactDetail} href="tel:+381607151552">
-                060/715-15-52
-              </a>
-            </li>{" "}
-            <li>
-              {" "}
-              <a className={layout.contactDetail} href="tel:+381607151551">
-                060/715-15-51
-              </a>
-            </li>{" "}
-            <li>
-              {" "}
-              <a className={layout.contactDetail} href="tel:+381607151550">
-                060/715-15-50
-              </a>
-            </li>
-          </ul>{" "}
-          <ul className={layout.contactList}>
-            <li>
-              {" "}
-              <a
-                className={layout.contactDetail}
-                href="mailto: nada.jesic@struktor.com"
-              >
-                nada.jesic@struktor.com
-              </a>
-            </li>
-            <li>
-              {" "}
-              <a
-                className={layout.contactDetail}
-                href="mailto: milica.simovic@structorjesic.com"
-              >
-                milica.simovic@structorjesic.com
-              </a>
-            </li>{" "}
             <li>
               {" "}
               <a
@@ -151,6 +74,77 @@ export default function RootLayout({ children }) {
                 nikola.cicvaric@struktorjesic.com
               </a>
             </li>{" "}
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="mailto: milica.simovic@struktorjesic.com"
+              >
+                milica.simovic@struktorjesic.com
+              </a>
+            </li>{" "}
+          </ul>{" "}
+          <ul className={layout.contactList}>
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151550">
+                060/715-15-50
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151551">
+                060/715-15-51
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151599">
+                060/715-15-99
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151555">
+                060/715-15-55
+              </a>
+            </li>{" "}
+            <li>
+              {" "}
+              <a className={layout.contactDetail} href="tel:+381607151552">
+                060/715-15-52
+              </a>
+            </li>{" "}
+          </ul>{" "}
+          <ul className={layout.contactList}>
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="https://goo.gl/maps/2dAo958ro8GGewjv5"
+              >
+                Poslovne prostorije: <br /> Francuska 1, 31210 Požega
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="https://goo.gl/maps/HyxMYUgTsTJRPqjF8"
+              >
+                Betonska Baza:
+                <br /> Godovički put bb, 31210 Požega
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                className={layout.contactDetail}
+                href="http://struktorjesic.com/"
+              >
+                struktorjesic.com
+              </a>
+            </li>
           </ul>{" "}
         </footer>
       </body>
