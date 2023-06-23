@@ -107,18 +107,17 @@
   .navList {
   }
 
-  .logo {
-    margin-left: 0.5rem;
-    width: 3rem;
-  }
-
-  .struktor {
-    /* font-size: 1.5rem; */
-  }
-
   .googleMaps {
     width: 100%;
     height: 15rem;
+  }
+
+  .logo {
+    max-width: 1.6rem;
+  }
+
+  .struktor {
+    font-size: 2rem;
   }
 }
 
@@ -135,11 +134,11 @@
   }
 
   .logo {
-    width: 3rem;
+    max-width: 1.6rem;
   }
 
   .struktor {
-    /* font-size: 1.5rem; */
+    font-size: 2rem;
   }
 }
 
@@ -157,5 +156,13 @@
 
   .navLink {
     font-size: 1rem;
+  }
+
+  .logo {
+    max-width: 2.4rem;
+  }
+
+  .struktor {
+    font-size: 3rem;
   }
 }
