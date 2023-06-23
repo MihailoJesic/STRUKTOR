@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 .navBar {
   box-sizing: border-box;
   justify-content: space-between;
@@ -6,6 +8,7 @@
   border-bottom: 0.1rem solid black;
 
   align-items: baseline;
+  flex-direction: column;
 
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
@@ -20,7 +23,7 @@
 }
 
 .logo {
-  width: 4rem;
+  max-width: 2.4rem;
   height: auto;
   pointer-events: none;
 }
@@ -30,21 +33,27 @@
   margin-left: 0.2rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-family: Calibri, sans-serif;
-  font-size: 2rem;
-  /* text-transform: uppercase; */
+  /* font-family: Calibri, sans-serif; */
+  font-family: "Righteous", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
 }
 
 .navList {
   display: flex;
   flex-direction: row;
   padding: 0.2rem 0;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .navLink {
   text-decoration: none;
-  font-size: 0.8rem;
-  padding-left: 0.6rem;
+  font-size: 0.7rem;
+  padding-left: 0.5rem;
+  /* font-family: Calibri, sans-serif; */
+  /* font-family: "Righteous", cursive; */
+  text-transform: uppercase;
 }
 
 .contact {
@@ -95,14 +104,7 @@
     display: flex;
   }
 
-  .navBar {
-    flex-direction: column;
-  }
-
   .navList {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
   }
 
   .logo {
@@ -111,7 +113,7 @@
   }
 
   .struktor {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
 
   .googleMaps {
@@ -137,7 +139,7 @@
   }
 
   .struktor {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
 }
 

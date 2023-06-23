@@ -54,6 +54,20 @@ export default function Home() {
               height="1200"
             />{" "}
           </a>
+          <a
+            href="/o nama/o-nama-1.jpg"
+            target="_blank"
+            className={styles.imageLink}
+          >
+            <Image
+              src="/o nama/o-nama-2.jpg"
+              className={styles.image}
+              alt="Struktor Offices"
+              sizes="100%"
+              width="1600"
+              height="1200"
+            />{" "}
+          </a>
         </div>
       </div>
     </main>

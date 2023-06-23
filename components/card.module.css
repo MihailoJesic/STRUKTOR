@@ -5,7 +5,7 @@
   flex-direction: row;
   width: 100%;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 0.2rem 2rem 0;
   border-bottom: #ff0000 solid 0.1rem;
 }
 

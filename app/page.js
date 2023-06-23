@@ -8,8 +8,8 @@ export default function Home() {
   const cardData = [
     {
       title: "Usluge",
-      text: "Priprema i raščišćavanje gradilišta, administraticna delatnost, zemljani, grubi građevinski, armirački i drugi radovi... ",
-      image: "/homepage/usluge-transport-1.jpg",
+      text: "Izvođenje građevinskih radova na izradnji stambenih i nestambenih objekata.",
+      image: "/homepage/zgrada-1.jpg",
       altText: "Šest parkiranih kamioni",
       buttonText: "Detalji",
       link: "/usluge",
@@ -18,7 +18,7 @@ export default function Home() {
     },
     {
       title: "Betonska Baza",
-      text: "Proizvodnja betona marke MB15, MB20, MB25, MB30, MB35, MB40.",
+      text: "Proizvodnja, transport i isporuka sveže betonske mešavine.",
       image: "/homepage/betonska-baza-1.jpg",
       altText: "Betonska baza",
       buttonText: "Detalji",
@@ -65,7 +65,7 @@ export default function Home() {
           alt="Struktor Logo"
           sizes="100%"
         />{" "}
-        <h1 className={styles.headerText}>Struktor Ješić</h1>
+        {/* <h1 className={styles.headerText}>Struktor Ješić</h1> */}
       </section>
       <section className={styles.cardContainer}>
         {cardCollection(cardData)}
@@ -74,9 +74,11 @@ export default function Home() {
         <div className={styles.mapSidebar}>
           <h3 className={styles.contact}>Lokacije</h3>
           <div>
-            Betonska baza nalazi se na Godovičkom Putu
+            <p className={styles.locationText}>Betonska baza:</p>
+            Godovički put bb
             <br />
-            Kancelarije na drugon spratu biznis centra u Francuskoj br. 1
+            <p className={styles.locationText}>Poslovne prostorije:</p>{" "}
+            Francuska br. 1, Biznis centar, II sprat
           </div>
           <div className={styles.ContactButtonContainer}>
             <Button
