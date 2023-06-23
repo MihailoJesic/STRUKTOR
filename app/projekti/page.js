@@ -124,6 +124,12 @@ export default function Home() {
       width: 1600,
       height: 1200,
     },
+    {
+      image: "/projekti/images (21).jpg",
+      altText: "Struktor Projekat",
+      width: 1200,
+      height: 1600,
+    },
   ];
 
   function galleryGenerator(arr) {

@@ -55,7 +55,7 @@ export default function Home() {
             />{" "}
           </a>
           <a
-            href="/o nama/o-nama-1.jpg"
+            href="/o nama/o-nama-3.jpg"
             target="_blank"
             className={styles.imageLink}
           >
