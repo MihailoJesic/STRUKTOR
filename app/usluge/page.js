@@ -82,8 +82,8 @@ export default function Home() {
           </a>
         </section>
 
-        <section className={styles.serviceContainer}>
-          <div className={styles.textContainer}>
+        <section className={styles.serviceContainer2}>
+          <div className={styles.textContainer2}>
             <h3 className={styles.serviceTitle}>Betonska baza:</h3>
             <div
               className={(styles.serviceItem, styles.concreteDetails)}
@@ -101,20 +101,36 @@ export default function Home() {
               spratnim etažama.
             </div>
           </div>
-          <a
-            className={styles.imageLink}
-            href="/usluge/betonska-baza-3.jpg"
-            target="_blank"
-          >
-            <Image
-              src="/usluge/betonska-baza-3.jpg"
-              className={styles.sidePhoto}
-              alt="x"
-              sizes="100%"
-              width="1200"
-              height="900"
-            />{" "}
-          </a>
+          <div className={styles.imageContainer}>
+            <a
+              className={styles.imageLink}
+              href="/usluge/kamioni-1.jpg"
+              target="_blank"
+            >
+              <Image
+                src="/usluge/kamioni-1.jpg"
+                className={styles.sidePhoto}
+                alt="x"
+                sizes="100%"
+                width="1200"
+                height="900"
+              />{" "}
+            </a>{" "}
+            <a
+              className={styles.imageLink}
+              href="/usluge/betonska-baza-3.jpg"
+              target="_blank"
+            >
+              <Image
+                src="/usluge/betonska-baza-3.jpg"
+                className={styles.sidePhoto}
+                alt="x"
+                sizes="100%"
+                width="1200"
+                height="900"
+              />{" "}
+            </a>
+          </div>
         </section>
       </div>
     </main>

@@ -12,35 +12,35 @@ export default function Home() {
             className={styles.offset}
             href="https://goo.gl/maps/2dAo958ro8GGewjv5"
           >
-            Francuska 1, II sprat, 31210 Požega
+            Francuska br. 1, Biznis centar, II sprat
           </a>
-          <h3>Telefon:</h3>
+          <h3 className={styles.subHeader}>Telefon:</h3>
           <ul className={styles.offset}>
             <li>
               {" "}
-              <a href="tel:+381607151555">Tel.: 060/715-15-55</a>
+              <a href="tel:+381607151555">Administracija: 060/715-15-55</a>
             </li>{" "}
             <li>
               {" "}
-              <a href="tel:+381607151551">Tel.: 060/715-15-51</a>
+              <a href="tel:+381607151599">Građevinski radovi: 060/715-15-99</a>
             </li>{" "}
             <li>
               {" "}
-              <a href="tel:+381607151599">Tel.: 060/715-15-99</a>
+              <a href="tel:+381607151551">Građevinski radovi: 060/715-15-51</a>
             </li>{" "}
           </ul>{" "}
-          <h3>Email:</h3>
+          <h3 className={styles.subHeader}>Email:</h3>
           <ul className={styles.offset}>
             <li>
               {" "}
-              <a href="mailto: nada.jesic@struktor.com">
-                nada.jesic@struktor.com
+              <a href="mailto: milica.simovic@struktorjesic.com">
+                milica.simovic@struktorjesic.com
               </a>
-            </li>
+            </li>{" "}
             <li>
               {" "}
-              <a href="mailto: milica.simovic@structorjesic.com">
-                milica.simovic@structorjesic.com
+              <a href="mailto: nikola.cicvaric@struktorjesic.com">
+                nikola.cicvaric@struktorjesic.com
               </a>
             </li>{" "}
           </ul>{" "}
@@ -59,36 +59,30 @@ export default function Home() {
       </section>
       <section className={styles.locationContainer} id="baza">
         <div className={styles.textContainer}>
-          <h3 className={styles.contactPlace}> Betonska Baza:</h3>
+          <h3 className={styles.contactPlace}> Betonska baza:</h3>
           <a
             className={styles.offset}
             href="https://goo.gl/maps/HyxMYUgTsTJRPqjF8"
           >
             Godovički put
           </a>
-          <h3>Telefon:</h3>
+          <h3 className={styles.subHeader}>Telefon:</h3>
           <ul className={styles.offset}>
             <li>
               {" "}
-              <a href="tel:+381607151552">Tel.: 060/715-15-52</a>
+              <a href="tel:+381607151552">Isporuka: 060/715-15-52</a>
             </li>{" "}
             <li>
               {" "}
-              <a href="tel:+381607151550">Tel.: 060/715-15-50</a>
+              <a href="tel:+381607151550">Direktor: 060/715-15-50</a>
             </li>
           </ul>{" "}
-          <h3>Email:</h3>
+          <h3 className={styles.subHeader}>Email:</h3>
           <ul className={styles.offset}>
             <li>
               {" "}
               <a href="mailto: radenko.jesic@struktorjesic.com">
                 radenko.jesic@struktorjesic.com
-              </a>
-            </li>{" "}
-            <li>
-              {" "}
-              <a href="mailto: nikola.cicvaric@struktorjesic.com">
-                nikola.cicvaric@struktorjesic.com
               </a>
             </li>{" "}
           </ul>{" "}

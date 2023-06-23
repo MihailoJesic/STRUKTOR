@@ -6,22 +6,25 @@
 .textContainer {
   box-sizing: content-box;
   padding: 1rem;
-  width: 90%;
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .text {
   font-size: 1.2rem;
   line-height: 1.2;
-  margin: 0.5rem;
+  /* margin: 0.5rem; */
 }
 
 .imageContainer {
-  max-width: 40%;
-  padding: 1rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .image {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   position: relative !important;
   height: auto !important;

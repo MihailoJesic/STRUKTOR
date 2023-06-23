@@ -141,7 +141,7 @@ h3 {
 .title {
   font-size: 3rem;
   font-weight: 600;
-  font-family: Calibri, sans-serif;
+  /* font-family: Calibri, sans-serif; */
   color: #ff0000;
   padding: 1rem;
   border-bottom: #ff0000 solid 0.1rem;
