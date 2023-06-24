@@ -7,13 +7,13 @@
   box-sizing: content-box;
   padding: 1rem;
   width: 92%;
-  text-align: justify;
-  text-justify: inter-word;
+  /* text-align: justify;
+  text-justify: inter-word; */
 }
 
 .text {
   font-size: 1.2rem;
-  line-height: 1.2;
+  line-height: 1.4;
   /* margin: 0.5rem; */
 }
 

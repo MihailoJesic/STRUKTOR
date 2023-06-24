@@ -17,8 +17,8 @@ export default function Home() {
             Primarna delatnost firme obuhvata kvalitetno i odgovorno izvođenje
             građevinskih radova uz upotrebu atestiranih sirovina i uz nadzor
             stručnog kadra.
-          </p>
-          <p className={styles.text}>
+            {/* </p>
+          <p className={styles.text}> */}
             Na osnovu zahteva tržišta, u saradnji sa laboratorijom za
             ispitivanje betona u opseg svog poslovanja uvrstili smo proizvodnju
             sveže betonske mešavine, sa transportom i isporukom na teritoriji
@@ -28,8 +28,8 @@ export default function Home() {
             Stručni kadar čine građevinski inženjeri i kvalifikovani građevinski
             radnici koji organizovani u timove sprovode najkompleksnije projekte
             od zemljanih do završnih radova.
-          </p>
-          <p className={styles.text}>
+            {/* </p>
+          <p className={styles.text}> */}
             Kao odgovorni izvođači radova, svoje projekte u celini sprovodimo
             prema važećim odredbama Zakona o planiranju i izgradnji, uz izradu
             neophodne prateće dokumentacije.
